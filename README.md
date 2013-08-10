@@ -1,4 +1,4 @@
-haproxy_monitoring
+Haproxy Monitoring
 ==================
 
 For using the haproxy_stats plugin for collectd
