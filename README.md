@@ -12,7 +12,10 @@ haproxy_sessions        qcur:GAUGE:0:U, scur:GAUGE:0:U
 Add these lines in the collectd conf for the execution of the plugin
 
 LoadPlugin exec
+
 <Plugin exec>
- #    userid    plugin executable                   plugin args
+ #userid plugin executable plugin args
+
   Exec "haproxy" "/usr/lib/collectd/plugins/haproxy" "-s" "/var/run/hproxy/haproxy.sock"  "-e" "listen_directive_from_haproxy_config" "-n" "BACKEND" -w "10"
+
 </Plugin>
