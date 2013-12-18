@@ -1,9 +1,9 @@
 Haproxy Monitoring
 ==================
 
-For using the haproxy_stats plugin for collectd
+ **For using the haproxy_stats plugin for collectd**
 
-Add the below lines to the types.db
+ - Add the below lines to the types.db
 
  ```Shell
 
@@ -14,7 +14,7 @@ Add the below lines to the types.db
  
  
 
-Add these lines in the collectd conf for the execution of the plugin
+ - Add these lines in the collectd conf for the execution of the plugin
 
  ```Shell
 
