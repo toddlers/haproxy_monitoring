@@ -6,7 +6,6 @@ Haproxy Monitoring
  - Add the below lines to the types.db
 
  ```Shell
-
    hproxy_status          status:GAUGE:0:U
    haproxy_traffic         stot:COUNTER:0:U, eresp:COUNTER:0:U, chkfail:COUNTER:0:U
    haproxy_sessions        qcur:GAUGE:0:U, scur:GAUGE:0:U
